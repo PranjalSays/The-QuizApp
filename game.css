@@ -1,0 +1,69 @@
+body{
+    background-color: #ecf5ff ;
+}
+h2 {
+    font-size: 3.5em;
+    margin-bottom: .9em;
+    font-weight: 700;
+  }
+
+#question{
+    font-family:  'Radio Canada', sans-serif;
+}
+.container {
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80em;
+    margin: 0 auto;
+  }
+  .choice-container{
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 0.5em;
+    width: 100%;
+    border: .1em solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+}
+.choice-prefix{
+    padding: .5rem 1.0em;
+    background-color: #56a5eb;
+    color: white;
+}
+.choice-text{
+    padding:.5em;
+    width: 100%;
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+
+.correct{
+    background-color: #28a745;
+}
+.incorrect{
+    background-color: #dc3435;
+}
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.6em;
+}
+/* .hud-main-text{
+    align-items: center;
+} */
+.hud-prefix{
+    /* color: #4199e7; */
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family:  'Radio Canada', sans-serif; 
+}
+.hud-main-text{
+    color: #56a5eb;
+}
